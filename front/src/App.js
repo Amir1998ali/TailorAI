@@ -9,7 +9,7 @@ function App() {
     const [result, setResult] = useState(null);
 
     return (
-        <div className="App">
+        <div className="container">
             <Header />
             <ResumeForm setResult={setResult} />
             {result && <Result result={result} />}
